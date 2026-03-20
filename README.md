@@ -15,7 +15,7 @@ We provide:
 
 - The full set of BPMs identified by GIDEON on data from  
   _A global genetic interaction network maps a wiring diagram of cellular function_ by Costanzo et al. One file lists the BPMs, while the other translates the gene names, lists enriched terms for each module, and notes the stronger interactions included in the BPM.
-- The filtered data from Costanzo 2016 for input into the GIDEON pipeline (CostanzoFilteredSubsetWeightingFormat.csv)
+- The interaction network with DI weights and filtering from the Costanzo 2016 data (interaction_network_DI_rsd2.gi)
 - The list of nonessential genes in the network (nonessential_genes.txt)
 
 ---
