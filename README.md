@@ -3,7 +3,7 @@
 
 This repository contains code for the preprint  
 _“A Novel ILP Framework to Identify Compensatory Pathways in Genetic Interaction Networks with GIDEON”_  
-by **Jocelyn J. Garcia, Kevin Yu, Catherine Freudenreich, and Lenore J. Cowen**.
+by **Jocelyn J. Garcia, Kevin Yu, Catherine Freudenreich, and Lenore J. Cowen**. The preprint is available here: https://doi.org/10.64898/2026.03.29.715009.
 
 If you use this work, please cite the authors. We welcome questions about the method and its applications.
 
