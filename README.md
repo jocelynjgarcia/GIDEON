@@ -16,7 +16,7 @@ We provide:
 - The full set of BPMs identified by GIDEON on data from  
   _A global genetic interaction network maps a wiring diagram of cellular function_ by Costanzo et al. One file lists the BPMs, while the other translates the gene names, lists enriched terms for each module, and notes the stronger interactions included in the BPM.
 - The interaction network with DI weights and filtering from the Costanzo 2016 data (interaction_network_DI_rsd2.gi)
-- The list of nonessential genes in the network (nonessential_genes.txt)
+- The list of unique nonessential genes in the network (nonessential_genes.txt)
 
 ---
 
@@ -142,6 +142,7 @@ Refines raw BPMs to improve biological relevance and diversity.
 - BPMs are indexed by their source gene; indices may repeat after splitting into connected components.  
 - The pipeline is designed for **large-scale parallel execution**.  
 - The only required data are the raw single and double mutant fitness measurements from a genetic interaction network.
+- The gene list must only contain unique genes (i.e. no duplicates).
 <!--
 # GIDEON
 An ILP-based method for mining Between-Pathway Models (BPMs)
